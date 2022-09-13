@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  padding: 10px;
+}
+/*============================= Navbar======================================= */
+
+.nav-header {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1 1;
+  align-items: center;
+  text-transform: uppercase;
+  height: 50px;
+  background: rgb(0, 0, 0);
+  padding: 1rem 2rem;
+  width: auto;
+}
+.logo {
+  font-size: 1.5rem;
+  font-style: bold;
+}
+
+.nav-items ul {
+  display: flex;
+  align-items: center;
+
+  flex: 1 1;
+  justify-content: center;
+  list-style: disc;
+}
+
+.nav-items ul li {
+  list-style: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.nav-items ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-items ul li a:hover {
+  color: grey;
+}

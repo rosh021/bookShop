@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1 1;
+  align-items: center;
+  text-transform: uppercase;
+  height: 50px;
+  background: rgb(0, 0, 0);
+  padding: 1rem 2rem;
+  width: auto;
+}
+.navbar__logo {
+  font-size: 1.5rem;
+  font-style: bold;
+}
+
+.navbar__items ul {
+  display: flex;
+  align-items: center;
+
+  flex: 1 1;
+  justify-content: center;
+  list-style: disc;
+}
+
+.navbar__items ul li {
+  list-style: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.navbar__items ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar__items ul li a:hover {
+  color: grey;
+}
+
+.inquiry {
+  background: rgb(224, 185, 185);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: center;
+}
+.inquiry__section {
+  /* min-height: auto; */
+  display: flex;
+  justify-content: center;
+}
+
+.inquiry__content {
+  background: rgba(255, 255, 255, 0.26);
+  margin-top: 20px;
+  color: black;
+
+  backdrop-filter: blur(3px);
+  padding: 10px 20px;
+  border-radius: 10px;
+
+  box-shadow: 5px 10px 10px black;
+}
+
+.inquiry__header {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.inquiry__Paragraph {
+  margin-top: 5px;
+}
+
+.inquiry__body {
+  background-color: rgba(141, 113, 113, 0.438);
+  margin-top: 50px;
+  width: 450px;
+  height: auto;
+  padding: 20px;
+  box-shadow: 5px 10px 10px black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.header {
+  margin-top: 5px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-control input {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+  width: 95%;
+  box-shadow: 2px 2px 2px black;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  font-weight: bolder;
+}
+
+.inquiry__btn {
+  margin-top: 10px;
+  padding: 5px;
+  width: 100%;
+  color: blue;
+  cursor: pointer;
+}

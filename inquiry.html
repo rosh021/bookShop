@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="inquiry.css" />
+    <title>Inquiry</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar__logo">
+        <p>Online Book Store</p>
+      </div>
+
+      <div class="navbar__items">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="inquiry.html">Inquiry</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="inquiry">
+      <div class="inquiry__section">
+        <div class="inquiry__content">
+          <h1 class="inquiry__header">Inquiry Section</h1>
+          <hr />
+          <p class="inquiry__Paragraph">
+            You can use the form below to request any books that is not in the
+            list displayed in the website <br />
+            Our friendly customer support representative will contact you
+            shortly.
+          </p>
+        </div>
+      </div>
+
+      <div class="inquiry__body container">
+        <div class="header">
+          <h2>Enquiry Form</h2>
+        </div>
+        <hr />
+        <form class="form" id="form">
+          <div class="form-control">
+            <label for="">Username</label
+            ><input
+              type="text"
+              placeholder="Enter your name"
+              id="username"
+              onblur="myblurFunction()"
+            /><i class="fas fa-check-circle"></i
+            ><i class="fas fa-exclamation-circle"></i
+            ><small>Error Message</small>
+          </div>
+
+          <div class="form-control">
+            <label for="">Email</label
+            ><input type="email" placeholder="Enter your email" id="email" /><i
+              class="fas fa-check-circle"
+            ></i
+            ><i class="fas fa-exclamation-circle"></i
+            ><small>Error Message</small>
+          </div>
+
+          <div class="form-control">
+            <label for="">Phone Number(Optional)</label
+            ><input
+              type="number"
+              placeholder="Enter your phone number"
+              id="number"
+            /><i class="fas fa-check-circle"></i
+            ><i class="fas fa-exclamation-circle"></i
+            ><small>Error Message</small>
+          </div>
+
+          <div class="form-control">
+            <label for="">Message</label
+            ><input
+              type="text"
+              placeholder="Enter your message"
+              id="message"
+            /><i class="fas fa-check-circle"></i
+            ><i class="fas fa-exclamation-circle"></i
+            ><small>Error Message</small>
+          </div>
+
+          <button id="btn" class="inquiry__btn">Submit</button>
+          <h5 id="successMsg"></h5>
+        </form>
+      </div>
+    </div>
+
+    <script src="inquiry.js"></script>
+  </body>
+</html>

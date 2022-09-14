@@ -13,7 +13,7 @@ body {
 }
 /*============================= Navbar======================================= */
 
-.nav-header {
+.navbar {
   color: white;
   display: flex;
   justify-content: space-evenly;
@@ -25,12 +25,12 @@ body {
   padding: 1rem 2rem;
   width: auto;
 }
-.logo {
+.navbar__logo {
   font-size: 1.5rem;
   font-style: bold;
 }
 
-.nav-items ul {
+.navbar__items ul {
   display: flex;
   align-items: center;
 
@@ -39,17 +39,47 @@ body {
   list-style: disc;
 }
 
-.nav-items ul li {
+.navbar__items ul li {
   list-style: none;
   margin-right: 15px;
   cursor: pointer;
 }
 
-.nav-items ul li a {
+.navbar__items ul li a {
   color: white;
   text-decoration: none;
 }
 
-.nav-items ul li a:hover {
+.navbar__items ul li a:hover {
   color: grey;
+}
+
+/* Main Section */
+
+.main {
+  background: url(img/mainimage.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__header {
+  background: rgba(255, 255, 255, 0.26);
+
+  color: black;
+  width: auto;
+  backdrop-filter: blur(3px);
+  padding: 10px 20px;
+  border-radius: 10px;
+  /* margin-bottom: 150px; */
+
+  box-shadow: 5px 10px 10px black;
+}
+
+.main__header__paragraph {
+  margin-top: 5px;
+  font-size: 18px;
 }

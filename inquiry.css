@@ -45,7 +45,7 @@
 }
 
 .inquiry {
-  background: rgb(224, 185, 185);
+  background: rgb(248, 205, 205);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -57,6 +57,7 @@
   /* min-height: auto; */
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .inquiry__content {

@@ -83,3 +83,51 @@ body {
   margin-top: 5px;
   font-size: 18px;
 }
+
+.bookDetails {
+  /* background: red; */
+  background: rgba(128, 128, 128, 0.505);
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(24, 21, 21, 0.504);
+  padding: 10px;
+  margin: 20px;
+  width: 100%;
+}
+
+.bookDetails > div {
+  /* background: blue; */
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+}
+.p-design {
+  /* font-size: 25px; */
+  font-weight: bolder;
+}
+.bookdetails-container {
+  padding: 10px;
+  width: 400px;
+  /* height: 400px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* display: flex; */
+
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+#display {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
+.cart {
+  display: flex;
+  
+}
+
+.cart__Amount {
+}
